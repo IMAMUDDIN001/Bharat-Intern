@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffffdd;
+    ;
+}
+
+header {
+    display: flex;
+    background-color: #808080;
+    height: 100px;
+
+
+}
+
+.logo {
+
+    width: 50%;
+
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    padding: 40px 40px;
+}
+
+.navbar {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Biryani', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+
+    font-size: 15px;
+    font-weight: 400px;
+    width: 50%;
+    margin: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+    padding: 34px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.navbar ul li a:hover{
+    font-weight: 600;
+    color: #a2494c;
+    text-decoration: underline;
+
+}
+
+.home {
+    color: #fff;
+    background-color: #490000;
+
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 120px;
+}
+
+.left-section h1 {
+    font-size: 80px;
+}
+
+.left-section h1 span {
+    font-size: 40px;
+}
+
+.left-section h2 {
+    font-size: 50px;
+    color: hsl(0, 0%, 48%);
+
+}
+
+.right-section {
+    width: 50%;
+    padding: 30px 180px;
+    height: 400px;
+    width: 700px;
+}
+
+.right-section img {
+    border-radius: 50%;
+
+}
+
+h5 {
+    font-size: 25px;
+    display: inline;
+}
+#paragraph{
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+font-family: 'Biryani', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+}
+
+p {
+  
+    font-family: 'Acme', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.Github-btn {
+    padding: 20px 50px;
+    margin: 50px 200px;
+    background-color: #fd7f7ff1;
+
+    border-radius: 20px;
+
+}
+.Github-btn:hover{
+    background-color: #490000;
+}
+a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.about {
+    /* background-color: #7a87a1; */
+    padding-top: 130px;
+}
+
+.about div h1 {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 45px;
+}
+
+.vertical-line {
+    margin-left: 44%;
+    height: 2px;
+    width: 195px;
+    background-color: #d25252;
+}
+
+
+.about-main {
+    display: flex;
+    margin-top: 150px;
+}
+
+.skills {
+
+    background-color: #e1d9d9f1;
+}
+
+#skil-section {
+    display: flex;
+
+}
+
+.skill h1 {
+    font-family: 'Acme', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Oswald', sans-serif;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 45px;
+
+}
+
+.left-section-skill {
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 200px 120px;
+
+}
+
+.left-section-skill h2 {
+    padding-bottom: 20px;
+}
+
+
+
+.skills-bar {
+    padding: 25px 30px;
+  }
+  
+  .skills-bar .bar {
+    margin: 25px 0;
+  }
+  
+  .skills-bar .bar .info span {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .skills-bar .bar .info {
+    margin-bottom: 8px;
+    color: #000;
+  }
+  
+  .skills-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 550px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  
+  .bar .progress-line span {
+    position: absolute;
+    background: #d25252;
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  .progress-line .html {
+    width: 90%;
+  }
+  .progress-line .css {
+    width: 80%;
+  }
+  .progress-line .bootstrap {
+    width: 70%;
+  }
+  .progress-line .javascript {
+    width: 65%;
+}
+  .progress-line .github {
+    width: 50%;
+  }
+  .progress-line .python {
+    width: 50%;
+  }
+  
+  .bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    right: 0;
+    top: -12px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #f0f0f0;
+  }
+  
+  .bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    /* color: #07374a; */
+    font-size: 12px;
+    font-weight: 700;
+    background: #f0f0f0;
+    padding: 1px 8px;
+    border-radius: 3px;
+  }
+  
+  .progress-line .html::after {
+    content: "90%";
+  }
+  .progress-line .css::after {
+    content: "80%";
+}
+.progress-line .javascript::after {
+  content: "65%";
+}
+  .progress-line .bootstrap::after {
+    content: "70%";
+  }
+  .progress-line .github::after {
+    content: "50%";
+  }
+  .progress-line .python::after {
+    content: "50%";
+  }
+  
+
+
+.LinkedIn-btn {
+    padding: 20px 50px;
+    background-color: #fd7f7ff1;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.LinkedIn-btn:hover{
+    background-color: #490000;
+}
+
+.contact {
+    background-color: #490000;
+    color: #fff;
+}
+
+.contact-main-section {
+    display: flex;
+}
+
+.contact h1 {
+    font-family: 'Acme', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Oswald', sans-serif;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.contact-left-section {
+
+    margin: 20px 10px;
+    margin: 180px 100px;
+
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-left-section p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-right-section {
+    width: 60%;
+    padding: 100px 180px;
+    /* margin-right: -50px; */
+
+}
+
+input {
+    border-radius: 9px;
+    height: 40px;
+    width: 410px;
+
+}
+
+.Message-btn {
+    padding: 20px 50px;
+    background-color: #fd7f7ff1;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Message-btn:hover{
+    background-color: #490000;
+}
+
+
+footer {
+    display: flex;
+    height: 60px;
+}
+
+.copyright {
+    padding: 20px 90px;
+}
+
+/* social media icons styling */
+.social-icons {
+    padding-left: 290px;
+    font-size: 36px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-github:hover,
+.fa-x-twitter:hover,
+.fa-linkedin:hover {
+    color: #a2494c;
+}
+
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
