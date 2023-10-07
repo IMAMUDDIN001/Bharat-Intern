@@ -1,0 +1,56 @@
+body {
+background-image: url("temprature\ converter\ image.jpg");
+    font-family: Arial, sans-serif;
+    object-fit:cover;
+}
+
+.container {
+    background-color: #739952fc;
+
+    max-width: 500px;
+    margin: 200px 200px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.container h1 {
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 700;
+}
+
+.input-container {
+    margin: 10px 0;
+
+}
+
+label {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #d3f7efed;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #475838fc;
+}
